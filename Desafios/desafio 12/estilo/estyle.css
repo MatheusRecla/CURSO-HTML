@@ -11,37 +11,58 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-size: 1em;
 }
 header{
     background-color: black;
     text-align: center;
-
-
-
+    color: white;
+    font-size: 10vw;
+    padding: 50px;
 }
 header h1{
-    display: block;
-    font-family:var(--fonte2);
-    color: white;
-    padding: 50px;
-    max-height: 200px;
-    
-    
-    
-    
+    font-family:var(--fonte2);    
 }
 
 header p{
-    color: white;
-    font-size: 15px;
-    
+    font-size: 18px;   
 }
 header a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 20px;
 }
 header a:hover{
     text-decoration: underline;
+}
+
+
+.branco{
+    background-color: white;
+    color: black;
+    font-size: 3.5vw;
+    font-family: var(--fonte3);
+    padding-left: 29px;
+    padding-top: 115px;
+    padding-bottom: 117px;
+}   
+
+#imagem01{
+    background-image: url(../imagens/background001.jpg);
+    background-size: 160vw;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+#texto01{
+    display: inline-block;
+    color: white;
+    font-size: 3vw;
+    font-family: var(--fonte3);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.308);
+    margin: 130px 0px 130px 20px;
+    
 }
