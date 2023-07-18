@@ -11,6 +11,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    border: 0px;
     font-size: 1em;
 }
 header{
@@ -43,26 +44,65 @@ header a:hover{
     color: black;
     font-size: 3.5vw;
     font-family: var(--fonte3);
-    padding-left: 29px;
-    padding-top: 115px;
-    padding-bottom: 117px;
+    padding-left: 5vw;
+    padding-top: 10vw;
+    line-height: 7vw;
+
+    
 }   
 
 #imagem01{
+    height: 70vw;
     background-image: url(../imagens/background001.jpg);
-    background-size: 160vw;
+    background-size: auto;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center center;
+    box-shadow: inset 0px 0px 17px 4px rgba(0, 0, 0, 0.329);
+    padding-top: 20vw;
+    padding-left: 5vw;
+    padding-bottom: 0vw;
+    margin-top: 5vw;
+    background-attachment: fixed;
 }
-#texto01{
+
+#imagem02{
+    height: 70vw;
+    background-image: url(../imagens/background002.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: inset 0px 0px 17px 4px rgba(0, 0, 0, 0.329);
+    padding-top: 20vw;
+    padding-left: 5vw;
+    padding-bottom: 0vw;
+    margin-top: 5vw;
+    background-attachment: fixed;
+}
+#texto01, #texto02{
     display: inline-block;
     color: white;
-    font-size: 3vw;
+    line-height: 7vw;
     font-family: var(--fonte3);
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: rgba(0, 0, 0, 0.308);
-    margin: 130px 0px 130px 20px;
-    
+    padding: 10px 5px 10px 20px;
+    background-color: rgba(0, 0, 0, 0.404);
+    align-content: start;
+    font-size: 3.5vw;
+    font-weight: normal;    
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 5vw;
+    padding: 10px;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
