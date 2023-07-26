@@ -20,12 +20,7 @@ header {
     display: block;
     background-image:linear-gradient(to bottom, #58B879, #1e3f29) ;
     color: white;
-    margin: auto;
-    
-    
-    
-
-       
+    margin: auto;       
 }
 header > p{
     text-align: center;
@@ -35,9 +30,6 @@ header > h1{
     font-family: 'Bebas Neue', sans-serif;
     padding-top: 15px;
     text-align: center;
-}
-nav > a{
-    font-weight: bold;
 }
 a{
     text-decoration: none;
@@ -50,6 +42,7 @@ nav > a{
     border-radius: 5px;
     border: 5px 5px 5px 5px;
     transition-duration: 1s;
+    font-weight: bold;    
 }
 nav > a::after{
     content: "";
@@ -61,12 +54,12 @@ nav > a:hover{
     
 }
 nav{
-    background-color: #1E4029;
     height: 35px;
     margin: 0px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
-    
-
+    position: sticky;
+    background-color: #1E4029;
+    top: -1px;
 }
 
 
@@ -75,9 +68,7 @@ nav{
     width: 1000px;
     margin: auto;
     margin-top: 0px;
-    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.400);
-
-    
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.400);    
 }
 
 a::after{
